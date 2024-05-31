@@ -1,0 +1,85 @@
+.registrationSection {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient( black, gray);
+    overflow: hidden;
+    width: 100%;
+}
+.box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 267px auto 268px;
+    width: 910px;
+    background-color: white;
+    filter: drop-shadow(0 0 100px rgba(0,0,0,.247));
+}
+.flexCol {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px auto 50px;
+    width: 75.38%;
+}
+.titleBox_box {
+    position: relative;
+    font: 700 32px/1.21 'Montsserat', Helvetica, Arial, serif;
+    color: black;
+}
+.titleBox_span {
+    font: 1em/1.21 'Montsserat', Helvetica, Arial, serif;
+}
+.flexRow {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 0 10px;
+    margin: 56px 0 0;
+    width: 100%;
+}
+.flexCol1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 26px 0;
+    margin: 4px 0 0;
+    width: 280px;
+}
+.flexCol2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 6px 0;
+    min-height: 30px;
+    background-color: white;
+    color: black;
+    border-radius: 2px;
+    outline: 0.5px solid black;
+    outline-offset: -0.5px;
+}
+.flexCol3 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 30px 0;
+    margin: 0 0 86px;
+    width: 280px;
+}
+.registerButton {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 0 10px;
+    margin: 70px auto 0;
+    width: 210px;
+    font: 400 18px/1.22 'Montsserat', Helvetica, Arial, serif;
+    color: white;
+    text-align: center;
+    padding: 9px 4px 9px 4px;
+    outline: 0.5px solid black;
+    outline-offset: -0.5px;
+}

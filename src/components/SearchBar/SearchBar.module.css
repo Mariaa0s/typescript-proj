@@ -1,0 +1,57 @@
+.userProfileSection {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.flexRow {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 0 10px;
+    margin: 45px auto 25px;
+    width: 88.02%;
+    padding: 0 15px 0 0;
+}
+.contentBox {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+}
+.flexRow1 {
+    position: relative;
+    display: flex;
+    justify-content: start;
+    margin: 11px 10px 9px 17px;
+    width: 100%;
+}
+.searchImage {
+    position: relative;
+    width: 33px;
+    height: 40px;
+    margin-right: 10px;
+    aspect-ratio: 0.77;
+}
+.searchTitle {
+    position: relative;
+    margin: 4px 0px;
+    width: 100%;
+    font: 400 18px/1.22 "Montserrat", Helvetica, Arial, serif;
+    color: black;
+    background-color: white;
+}
+.profileTitle {
+    position: relative;
+    margin: 20px 0 8px;
+    width: 15%;
+    font: 400 18px/1.22 "Montserrat", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+}
+.logoutTitle {
+    position: relative;
+    margin: 20px 0px 8px;
+    width: 15%;
+    font: 400 18px/1.22 "Montserrat", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+}
